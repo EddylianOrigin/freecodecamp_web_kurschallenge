@@ -33,7 +33,8 @@
 <main>
     <p class="red-text">Click here to view more <a href="#">cat photos</a>.</p>
 
-    <a href="#"><img class="smaller-image thick-green-border" src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
+    <a href="#"><img alt="A cute orange cat lying on its back." class="smaller-image thick-green-border"
+                     src="https://bit.ly/fcc-relaxing-cat"></a>
 
     <div class="silver-background">
         <p>Things cats love:</p>
@@ -51,12 +52,12 @@
     </div>
 
     <form action="https://freecatphotoapp.com/submit-cat-photo" id="cat-photo-form">
-        <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
-        <label><input type="radio" name="indoor-outdoor"> Outdoor</label><br>
-        <label><input type="checkbox" name="personality" checked> Loving</label>
-        <label><input type="checkbox" name="personality"> Lazy</label>
-        <label><input type="checkbox" name="personality"> Energetic</label><br>
-        <input type="text" placeholder="cat photo URL" required>
+        <label><input checked name="indoor-outdoor" type="radio"> Indoor</label>
+        <label><input name="indoor-outdoor" type="radio"> Outdoor</label><br>
+        <label><input checked name="personality" type="checkbox"> Loving</label>
+        <label><input name="personality" type="checkbox"> Lazy</label>
+        <label><input name="personality" type="checkbox"> Energetic</label><br>
+        <input placeholder="cat photo URL" required type="text">
         <button type="submit">Submit</button>
     </form>
 </main>
