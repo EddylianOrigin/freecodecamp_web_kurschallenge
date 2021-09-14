@@ -1,9 +1,9 @@
 // Setup
 function phoneticLookup(val) {
-  var result = "";
+    var result = "";
 
-  // Only change code below this line
- /**  switch(val) {
+    // Only change code below this line
+    /**  switch(val) {
     case "alpha":
       result = "Adams";
       break;
@@ -23,18 +23,18 @@ function phoneticLookup(val) {
       result = "Frank";
      
   }*/
-  
-  var lookup ={
-    "alpha": "Adams",
-    "bravo": "Boston",
-    "charlie": "Chicago",
-    "delta": "Denver",
-    "echo": "Easy",
-    "foxtrot": "Frank",
-  };
-  result=lookup[val];
-  // Only change code above this line
-  return result;
+
+    var lookup = {
+        "alpha": "Adams",
+        "bravo": "Boston",
+        "charlie": "Chicago",
+        "delta": "Denver",
+        "echo": "Easy",
+        "foxtrot": "Frank",
+    };
+    result = lookup[val];
+    // Only change code above this line
+    return result;
 }
 
 phoneticLookup("charlie");
